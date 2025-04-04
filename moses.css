@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#text-logo{
+    color: white;
+    font-weight: 700;
+}
+#text-logo h1{
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 35pc;
+}
+.navbar ol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar ol li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ol li a{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    text-decoration: none;
+    background: green;
+    border-radius: 10pc;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    transition: .02 ease;
+}
+.navbar ol li a:hover{
+    color: yellow;
+    background: transparent;
+}
+img{
+    width: 10pc;
+    height: auto;
+    border-radius: 60px;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.photo{
+    display: flex;
+}
+.portfolio{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+.portfolio a{
+    background: green;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    text-decoration: none;
+}
+#btn{
+    padding:8px;
+    margin: 15px;
+    justify-items: center;
+    align-items: center;
+}
+#btn a{
+    margin: 8px;
+    background: green;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+span{
+    color: yellow;
+    font-weight: 700;
+}
+.profile{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 8pc;
+}
+.profile p{
+    color:white;
+    font-weight: bold;
+    margin: 20px;
+}
+.profile a{
+    display: inline-block;
+    border-radius: 2px;
+    color:white;
+    background:green;
+}
+.profile a:hover{
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+body{
+    background:chocolate
+}
+#social{
+    display: flex;
+
+}
+#social a{
+    display: flex;
+    background: green;
+    margin: 15px;
+    transition: 0.3s ease-in-out;
+    padding: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#social a:hover{
+    background: transparent;
+}
+.aboutme{
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+#Resume{
+    display: block;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+#Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    display: inline;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color:White
+}
